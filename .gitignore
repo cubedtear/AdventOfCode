@@ -1,0 +1,4 @@
+zig-out
+.zig-cache
+src/inputs/
+src/step_list.zig
