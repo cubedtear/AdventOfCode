@@ -18,7 +18,10 @@ zig build
 ```sh
 zig build run -- <day>
 
+# Run in release mode (some code is very sub-optimal, so this is recommended)
+zig build run --release=safe -- <day>
+
 # Example
 zig build run -- 1
-zig build run -- 11
+zig build run --release=safe -- 11
 ```
