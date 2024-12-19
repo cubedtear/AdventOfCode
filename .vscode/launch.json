@@ -9,8 +9,10 @@
             "name": "(MSVC) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/zig-out/bin/Day01.exe",
-            "args": [],
+            "program": "${workspaceFolder}/zig-out/bin/AdventOfCode.exe",
+            "args": [
+                "15"
+            ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
